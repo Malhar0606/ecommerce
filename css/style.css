@@ -1,0 +1,217 @@
+
+.desktop-list{
+    display: none;
+}
+.desktop-list li{
+    font-size: 20px;
+}
+
+.header{
+    background-image: url(../images/background/master-slide-03.jpg.webp);
+    width: 100%;
+    height: auto;
+    background-position: center;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.anchor{
+    padding-right: 10px;
+    color: rgb(134, 134, 134)
+}
+.new{
+    font-size: 40px;
+}
+
+/* section 1 */
+.offer{
+    background-color: rgb(232, 231, 231);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* section 3 */
+.section-three{
+    background-color: rgb(229, 227, 227);
+    width: 100%;
+    height: auto;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.beauty{
+    background-image: url(../images/background/banner-08.jpg.webp);
+    width: 100%;
+    height: auto;
+    background-position: center;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px
+}
+.beauty h2{
+    font-size: 35px;
+}
+.beauty a{
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+.timer{
+    display: flex;
+    background-color: white;  
+}
+.timer div{
+    flex-basis: 100px;
+}
+.timer p{
+    font-size: 20px
+}
+.offer1{
+    margin-top: -80px;
+}
+.price{
+    text-decoration: line-through;
+}
+
+/* section 5 */
+.container{
+    margin-top: 100px;
+}
+.images{
+    margin-bottom: 80px;
+}
+.delivery h4{
+    color: rgb(48, 47, 47);
+    font-weight: 300;
+}
+.delivery p{
+    color: rgb(163, 163, 163);
+}
+.text{
+    color: rgb(163, 163, 163);
+}
+.delivery{
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* footer */
+.footer p{
+    color: rgb(163, 163, 163);
+}
+.ft-a{
+    text-decoration: none;
+    color: rgb(127, 126, 126);
+}
+.news{
+    margin-bottom: 20px;
+}
+.footer h4{
+    font-size: 17px;
+}
+.news h4{
+    font-size: 15px;
+}
+.subscribe{
+    margin-bottom: 100px;
+}
+@media(min-width:576px){
+    .header br{
+        display: none;
+    }
+    .header h1{
+        font-size: 50px;
+    }
+    .sec-two br{
+        display: none;
+    }
+    .sec-two h2{
+        font-size: 40px;
+    }
+    .sec-three h2{
+        font-size: 30px;
+    }
+    .sec-five h2{
+        font-size: 35px;
+    }
+    .feature{
+        gap: 20px;
+    }
+    .offer1{
+        margin-top: -150px;
+    }
+    .list{
+        gap: 100px;
+    }
+}
+
+@media(min-width:768px){
+    .header{
+        padding: 150px 0 150px 0;
+    }
+    .sec-one{
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+      .blog{
+        gap: 20px;
+      }
+      .lookbook{
+        width: 60%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    
+}
+
+@media(min-width:992px){
+    .header{
+        padding-top: 200px;
+        padding-bottom: 200px;
+    }
+    .header h1{
+        font-size: 70px;
+    }
+    .sec-one{
+        width: 100%;
+    }
+    .lookbook{
+        gap: 20px;
+        width: 100%;
+    }
+    .offer1{
+        padding-top: 60px;
+    }
+    .delivery{
+        margin-left: 100px;
+    }
+}
+@media(min-width:1200px){
+    .footer-one{
+        width: 100%;
+    }
+    .delivery{
+        gap: 200px;
+    }
+    .social{
+        width: 30%;
+    }
+    .media{
+        gap: 100px;
+    }
+    .desktop-list{
+        list-style-type: none;
+        display: flex;
+        font-size: 15px;
+        gap: 40px;
+        color: grey;
+    }
+    .desktop-list a{
+        text-decoration: none;
+        color: grey;
+    }
+    .mob-bar{
+        display: none;
+    }
+}
